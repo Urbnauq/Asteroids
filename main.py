@@ -1,9 +1,9 @@
 # this allows us to use code from
 # the open-source pygame library
 # throughout thi file 
-import pygame
+import pygame 
 from constants import *
-from player import *
+from player import Player
 
 def main():
     pygame.init()
