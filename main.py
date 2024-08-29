@@ -12,12 +12,12 @@ def main():
     print(f"Screen height: {SCREEN_HEIGHT}")
     
     while True:
-        pygame.Surface.fill(screen, (0,0,0), rect=None, special_flags=0)
-        pygame.display.flip()
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                return
-
+                return        
+        
+        pygame.Surface.fill(screen, (0,0,0), rect=None, special_flags=0)
+        pygame.display.flip()
 
 
 
